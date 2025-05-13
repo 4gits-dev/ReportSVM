@@ -1,19 +1,20 @@
 # ReportSVM
-# Sentiment Analysis using SVM
+# Analisis Sentimen dengan SVM
 
-This project applies **Support Vector Machine (SVM)** to perform sentiment analysis on movie or product reviews. The goal is to classify reviews as **positive** or **negative**.
+Proyek ini menerapkan **Support Vector Machine (SVM)** untuk melakukan analisis sentimen terhadap ulasan film atau produk. Tujuannya adalah untuk mengklasifikasikan setiap ulasan ke dalam kategori **positif** atau **negatif**.
 
 ---
 
 ## 📂 Dataset
 
-- Dataset used is from [Kaggle UMICH SI650](https://www.kaggle.com/c/si650winter11/data)
-- The data is in **TSV (Tab-Separated Values)** format.
-- Each line consists of:
-  - **Label**: `1` for positive sentiment, `0` for negative sentiment.
-  - **Text**: the actual review.
+- Dataset berasal dari: [Kaggle UMICH SI650](https://www.kaggle.com/c/si650winter11/data)
+- Format data: **TSV (Tab-Separated Values)**
+- Setiap baris terdiri dari:
+  - **Label**: `1` untuk sentimen positif, `0` untuk negatif
+  - **Teks**: isi ulasan
 
-> Example:
+> Contoh:
 ```tsv
-1   I loved the Da Vinci Code.
-0   The movie was boring and too long.
+1   Saya sangat menyukai Da Vinci Code.
+0   Film ini membosankan dan terlalu panjang.
+
