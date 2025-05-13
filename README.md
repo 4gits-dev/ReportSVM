@@ -13,12 +13,7 @@ Proyek ini menerapkan **Support Vector Machine (SVM)** untuk melakukan analisis 
   - **Label**: `1` untuk sentimen positif, `0` untuk negatif
   - **Teks**: isi ulasan
 
-> Contoh:
-```tsv
-1   Saya sangat menyukai Da Vinci Code.
-0   Film ini membosankan dan terlalu panjang.
-
-#Alur Proses
+## Alur Proses
 Import Library
 Menggunakan pustaka berikut:
 
@@ -83,5 +78,11 @@ Kurva Pembelajaran (Learning Curve)
 Kurva ROC
 
 Word Cloud per sentimen
+
+> Contoh:
+```tsv
+1   Saya sangat menyukai Da Vinci Code.
+0   Film ini membosankan dan terlalu panjang.
+
 
 
